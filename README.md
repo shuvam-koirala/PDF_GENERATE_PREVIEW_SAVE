@@ -1,16 +1,30 @@
-# pdf_genereate_view_print
+## ** PDF Generator and Viewer**
 
-A new Flutter project.
+**Description:**
 
-## Getting Started
+This Flutter application provides a comprehensive solution for PDF generation, preview, and management. Users can:
 
-This project is a starting point for a Flutter application.
+- **Generate PDFs from HTML:** Convert HTML content into PDF format.
+- **Generate PDFs from Flutter widgets:** Create PDFs directly from Flutter UI elements.
+- **Preview PDFs from network URLs:** View PDFs hosted online without downloading.
+- **Preview PDFs from the device:** Open and display PDFs stored locally.
+- **Save PDFs to desired locations:** Save generated or downloaded PDFs to any chosen directory.
+- **Print PDFs:** Print PDFs using connected printers.
 
-A few resources to get you started if this is your first Flutter project:
+**Dependencies:**
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- `htmltopdfwidgets`: For rendering HTML content in PDF format.
+- `printing`: For printing and viewing PDFs.
+- `pdf`: For creating PDF from Flutter UI elements.
+- `file_picker`: For accesing locally stored PDFs.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+**Usage:**
+
+1. Clone the repository.
+2. Install dependencies using `flutter pub get`.
+3. Run the app using `flutter run`.
+
+**Contributions:**
+
+Contributions are welcome! Feel free to submit pull requests for new features, bug fixes, or improvements.
+
